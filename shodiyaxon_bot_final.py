@@ -5,8 +5,10 @@ import json
 import os
 
 # Token from environment
-TOKEN = os.environ.get("TELEGRAM_TOKEN")
-bot = telebot.TeleBot(TOKEN)
+TOKEN = os.environ.get "8016989870:AAEDPPuzrt_H0ShF9qpU4Aa1UbOJGVGt1SE"
+
+bot = telebot.TeleBot 8016989870:AAEDPPuzrt_H0ShF9qpU4Aa1UbOJGVGt1SE
+
 
 # Google credentials from environment
 creds_dict = json.loads(os.environ.get("GOOGLE_CREDENTIALS"))
